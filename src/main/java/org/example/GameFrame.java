@@ -10,6 +10,8 @@ public class GameFrame extends JFrame {
     this.setResizable(false);
     this.pack();
     this.setVisible(true);
+    this.setFocusable(true);
+    this.requestFocus();
     this.setLocationRelativeTo(null);
     }
 }
